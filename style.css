@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro{
+    max-width: 100%;
+    height: 753px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222831;
+    font-family: "Ubuntu";
+}
+
+#ml3 {
+    font-weight: 900;
+    font-size: 3em;
+    color:rgb(28, 45, 197);
+    font-family: "Ubuntu";
+}
+.calculator {
+    width: 300px;
+    /* padding-bottom: 15px; */
+    /* border-radius: 7px; */
+    background-color: rgba(255, 255, 255, 0);
+  }
+  /* calculator style end */
+  
+  /* display */
+  .display {
+    width: 100%;
+    height: 80px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    text-align: right;
+    /* border-top-left-radius: 7px;
+    border-top-right-radius: 7px; */
+  }
+  
+  /* button */
+  button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 10px;
+    border: none;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5TEYapD8MTKUnXwWXScoBIC0xQq11J9Z9g&usqp=CAU') no-repeat center transparent;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  #input{
+    border: 0.5px solid whitesmoke;
+    text-transform: capitalize;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+  }
